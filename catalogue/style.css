@@ -1,0 +1,304 @@
+body,p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+header {
+    width: 100%;
+}
+
+header > div{
+    width: 100%;
+    height: 105px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black ;
+    font-size:14px;
+}
+
+
+.container_list{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0;
+    justify-content:space-around;
+}
+
+.list_two{
+    margin-top: 23px;
+}
+
+.container_list >li{
+    list-style: none;
+}
+
+.fas{
+    color: black;
+}
+
+.list_two img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid grey;
+}
+
+.header_live{
+    display: flex;
+    align-items: center;
+}
+
+.live_dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    margin-right: 5px ;
+}
+
+
+.list_one > li{
+    margin: 10px;
+}
+
+.list_one > li:nth-child(4) > div > p{
+    margin-top: 6px;
+}
+
+.list_one > li:nth-child(5), .list_two > li:nth-child(3){
+    color: #FA4516;
+}
+
+.list_one > li:nth-child(4) > div{
+    width: 100px;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.container_list_logo{
+    width: 100px;
+    height: 110px;
+}
+
+.list_one > li:nth-child(2) > div{
+    width:0;
+    height: 75px;
+    border-left:solid #BEBEBE 2px ;
+}
+
+
+.list_two > li:nth-child(2) > div{
+    width: 0;
+    height: 20px;
+    border-left: 2px solid #BEBEBE;
+}
+
+.list_two > li {
+    margin: 10px;
+}
+
+.catalogue {
+    background-image: url("first.png");
+    width: 100%;
+    height: 800px;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    top: 95%;
+}
+
+.theatre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture1, .picture2, .picture3 {
+    margin-top: 80px;
+    margin-right: 60px;
+    border: solid grey 2px;
+    margin-bottom: 50px;
+}
+
+.picture1 p, .picture2 p, .picture3 p {
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.picture1 img {
+    width: 340px;
+    height: 280px;
+}
+
+.picture2 img {
+    width: 340px;
+    height: 280px;
+}
+
+.picture3 img {
+    width: 340px    ;
+    height: 280px;
+}
+
+.peinture {
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFF5EE;
+    border: solid grey 1px;
+}
+
+.art1, .art2, .art3 {
+    margin-top: 80px;
+    margin-right: 60px;
+    border: solid grey 2px;
+    margin-bottom: 50px;
+}
+
+.art1 p, .art2 p, .art3 p {
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.art1 img {
+    width: 340px;
+    height: 280px;
+}
+
+.art2 img {
+    width: 340px;
+    height: 280px;
+}
+
+.art3 img {
+    width: 320px;
+    height: 280px;
+}
+
+.spectacle {
+    display: flex;
+    justify-content: space-between;
+    border: solid grey 1px;
+}
+
+.sing1, .sing2, .sing3 {
+    margin-top: 80px;
+    margin-right: 50px;
+    border: solid grey 2px;
+    margin-bottom: 50px;
+}
+
+.sing1 p, .sing2 p, .sing3 p {
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sing1 img {
+    width: 340px;
+    height: 280px;
+}
+
+.sing2 img {
+    width: 340px;
+    height: 280px;
+}
+
+.sing3 img {
+    width: 320px;
+    height: 280px;
+}
+
+.concert {
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFF5EE;
+    border: solid grey 1px;
+}
+
+.show1, .show2, .show3 {
+    margin-top: 80px;
+    margin-right: 50px;
+    border: solid grey 2px;
+    margin-bottom: 50px;
+}
+
+.show1 p, .show2 p, .show3 p {
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.show1 img {
+    width: 340px;
+    height: 280px;
+}
+
+.show2 img {
+    width: 340px;
+    height: 280px;
+}
+
+.show3 img {
+    width: 340px;
+    height: 280px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.line {
+    border-left: 2px solid grey;
+    height: 350px;
+    width: 100px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    padding: 5px;
+}
+
+h3 {
+    position: relative;
+    left: 30px;
+}
+
+.line p {
+    position: relative;
+    margin-bottom: 10px;
+    left: 30px;
+    width: 300px;
+}
+
+.email {
+    position: relative;
+    left: 33px;
+    top: 30%;
+    width: 300px;
+    height: 30px;
+}
+
+.submit3 {
+    position: relative;
+    left: 40%;
+    top: 25%;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(231, 119, 15);
+    color: white;
+    border: 0px;
+}
